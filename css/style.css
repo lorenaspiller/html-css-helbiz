@@ -7,6 +7,14 @@ body {
 }
 /* /MIX */
 
+/* TYPO */
+h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: #000;
+}
+/* /TYPO */
+
 /* BUTTON */
 .btn_custom {
   background-color: #000;
@@ -31,8 +39,14 @@ body {
 /* header */
 /* header top */
 .header_top {
+  background-color: #fff;
   height: 70px;
   line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
 }
 
 .logo__img {
@@ -69,4 +83,41 @@ body {
   line-height: normal;
 }
 /* /header top */
+
+/* hero */
+.hero {
+  margin-top: 70px;
+  padding: 40px;
+}
+
+.hero__img {
+  width: 100%;
+}
+/* /hero */
 /* /header */
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .hero {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero {
+    margin-top: 30px;
+  }
+}
+/* /RESPONSIVE */
