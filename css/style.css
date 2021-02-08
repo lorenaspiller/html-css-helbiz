@@ -10,6 +10,11 @@ body {
 .bg_grey {
   background-color: #fafafa;
 }
+
+.container__small {
+  max-width: 800px;
+  margin: auto;
+}
 /* /MIX */
 
 /* TYPO */
@@ -17,6 +22,10 @@ h1 {
   font-size: 90px;
   font-weight: bold;
   color: #000;
+}
+
+h2, h3 {
+  font-weight: bold;
 }
 /* /TYPO */
 
@@ -134,6 +143,52 @@ h1 {
   margin-bottom: 25px;
 }
 /* /main product */
+
+/* how does it work */
+.banner {
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+}
+
+.hdiw__box {
+  display: inline-block;
+  width: calc( (100% / 3) - 4px);
+  height: 160px;
+  position: relative;
+}
+
+.hdiw-center .hdiw__img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.hdiw-center {
+  left: calc( (100% / 3) - 4px);
+  padding-bottom: 50px;
+  height: 500px;
+}
+
+.hdiw__left {
+  right: calc( (100% / 3) - 4px);
+}
+
+.hdiw__right {
+  padding-bottom: 50px;
+}
+
+.hdiw-boxes {
+  padding-top: 200px;
+}
+
+.hdiw__left, .hdiw__right {
+  vertical-align: bottom;
+}
+
+/* /how does it work */
 /* /main */
 
 
@@ -152,5 +207,30 @@ h1 {
   h1 {
     font-size: 50px;
   }
+
+  /* how does it work */
+  .hdiw-center {
+    left: auto;
+    margin: auto;
+    min-width: 200px;
+  }
+
+  .hdiw__left {
+    right: auto;
+    margin: auto;
+  }
+
+  .hdiw__box {
+    display: block;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .hdiw__right {
+    margin: auto;
+
+  }
+  /* /how does it work */
+
 }
 /* /RESPONSIVE */
