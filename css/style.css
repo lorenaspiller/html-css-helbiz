@@ -1,3 +1,72 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+/* MIX */
+.list-inline {
+  margin-bottom: 0;
+}
+/* /MIX */
+
+/* BUTTON */
+.btn_custom {
+  background-color: #000;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 20px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn_mobile {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 5px;
+}
+/* /BUTTON */
+
+
+/* header */
+/* header top */
+.header_top {
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo__img {
+  height: 13px;
+}
+
+.main_nav, .secondary_nav {
+  display: inline-block;
+}
+
+.secondary_nav {
+  margin-left: 20px;
+}
+
+.main_nav li {
+  margin-right: 30px;
+}
+
+.main_nav li a {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.secondary_nav .language {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+  color: #000;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+/* /header top */
+/* /header */
