@@ -187,8 +187,45 @@ h2, h3 {
 .hdiw__left, .hdiw__right {
   vertical-align: bottom;
 }
-
 /* /how does it work */
+
+/* helbiz mosaico */
+#helbiz-mosaico {
+  margin-top: 50px;
+}
+/* carpisa */
+.carpisa {
+  padding: 10px;
+}
+
+.carpisa__logo {
+  height: 20px;
+}
+
+.carpisa__title {
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.carpisa__link {
+  color: inherit;
+}
+
+.carpisa_text {
+  margin: 40px 0;
+}
+
+.carpisa__testo {
+  padding: 60px 0;
+}
+
+.carpisa__img {
+  max-width: 100%;
+  height: auto;
+}
+/* /carpisa */
+
+/* /helbiz mosaico */
 /* /main */
 
 
@@ -201,6 +238,15 @@ h2, h3 {
   h1 {
     font-size: 70px;
   }
+
+  /* helbiz mosaico */
+  /* carpisa */
+  .carpisa__img {
+    width: 100%;
+    text-align: center;
+  }
+  /* /helbiz mosaico */
+  /* /carpisa */
 }
 
 @media screen and (max-width: 768px) {
@@ -211,6 +257,7 @@ h2, h3 {
   /* how does it work */
   .banner {
     width: 100%;
+    background-position: left;
   }
 
   .hdiw-center {
@@ -222,6 +269,7 @@ h2, h3 {
   .hdiw__left {
     right: auto;
     margin: auto;
+    padding-left: 20px;
   }
 
   .hdiw__box {
@@ -233,8 +281,8 @@ h2, h3 {
 
   .hdiw__right {
     margin: auto;
+    padding-left: 20px;
   }
   /* /how does it work */
-
 }
 /* /RESPONSIVE */
