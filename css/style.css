@@ -157,7 +157,6 @@ h2, h3 {
 .hdiw__box {
   display: inline-block;
   width: calc( (100% / 3) - 4px);
-  height: 160px;
   position: relative;
 }
 
@@ -176,7 +175,7 @@ h2, h3 {
   right: calc( (100% / 3) - 4px);
 }
 
-.hdiw__right {
+.hdiw__right, .hdiw__left {
   padding-bottom: 50px;
 }
 
